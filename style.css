@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clockDiv {
+  width: 100%;
+  margin: auto;
+}
+.clock {
+  width: 850px;
+  height: 250px;
+  border: 6px solid goldenrod;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+.date {
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+}
+.count {
+  margin: 40px 20px;
+  font-size: 130px;
+  color: #333;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 15%;
+  height: 40px;
+  background-color: goldenrod;
+  color: #fff;
+  border: unset;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  width: 17%;
+  height: 45px;
+  background-color: rgb(101, 101, 233);
+  box-shadow: 10px 5px 20px greenyellow;
+  transition: 0.7s;
+}
+.dark {
+  background: black;
+}
+.dateLight {
+  color: #fff;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.countLight {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clockDark {
+  border: unset;
+  box-shadow: -10px 10px 50px gold;
+}
